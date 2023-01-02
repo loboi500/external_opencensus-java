@@ -1,12 +1,3 @@
-description = 'OpenCensus Lite Implementation'
-
-dependencies {
-    compile project(':opencensus-api'),
-            project(':opencensus-impl-core')
-
-    testCompile project(':opencensus-api'),
-            project(':opencensus-impl-core')
-
-    signature "org.codehaus.mojo.signature:java17:1.0@signature"
-    signature "net.sf.androidscents.signature:android-api-level-14:4.0_r4@signature"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0957c130653a626f0d54a5257549364e06f17719473cd140ea2572ffe498d429
+size 391

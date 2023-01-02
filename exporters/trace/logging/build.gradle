@@ -1,11 +1,3 @@
-description = 'OpenCensus Trace Logging Exporter'
-
-dependencies {
-    compile project(':opencensus-api'),
-            libraries.guava
-
-    testCompile project(':opencensus-api')
-
-    signature "org.codehaus.mojo.signature:java17:1.0@signature"
-    signature "net.sf.androidscents.signature:android-api-level-14:4.0_r4@signature"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:40706e44ee54af79fac707eae1502abbf68a3751ea1f205480b74d1c49cf2cce
+size 330

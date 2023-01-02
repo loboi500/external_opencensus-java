@@ -1,21 +1,3 @@
-description = 'OpenCensus Spring Sleuth'
-
-apply plugin: 'java'
-
-[compileJava, compileTestJava].each() {
-    it.sourceCompatibility = 1.6
-    it.targetCompatibility = 1.6
-}
-
-dependencies {
-    compile project(':opencensus-api'),
-	    libraries.spring_boot_starter_web,
-	    libraries.spring_cloud_build,
-	    libraries.spring_cloud_starter_sleuth
-
-    testCompile project(':opencensus-impl'),
-            project(':opencensus-testing'),
-            libraries.spring_test
-
-    signature "org.codehaus.mojo.signature:java16:+@signature"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cd8110549903cb15c0541fb62782ff9a1e8ae5883737da7404c26f69b7178ea
+size 536

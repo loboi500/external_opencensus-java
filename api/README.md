@@ -1,6 +1,3 @@
-OpenCensus API
-======================================================
-
-* Java 6 and Android compatible.
-* The abstract classes in this directory can be subclassed to create alternative
-  implementations of the OpenCensus library.
+version https://git-lfs.github.com/spec/v1
+oid sha256:24a01b047efdbfb9cb90b276d015fc3335ffa541f9fc4cbeca921d52a1edfab7
+size 230

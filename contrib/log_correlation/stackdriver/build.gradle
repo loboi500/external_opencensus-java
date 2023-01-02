@@ -1,13 +1,3 @@
-description = 'OpenCensus Stackdriver Log Correlation'
-
-apply plugin: 'java'
-
-dependencies {
-    compile project(':opencensus-api'),
-            libraries.google_cloud_logging
-
-    testCompile libraries.guava
-
-    signature "org.codehaus.mojo.signature:java17:1.0@signature"
-    signature "net.sf.androidscents.signature:android-api-level-14:4.0_r4@signature"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6658d041e368ff7aadb5769fcbcb9e27a6173540c5e1c0d4f3b615423b9220b9
+size 362

@@ -1,16 +1,3 @@
-description = 'OpenCensus Z-Pages'
-
-apply plugin: 'java'
-
-[compileJava, compileTestJava].each() {
-    it.sourceCompatibility = 1.8
-    it.targetCompatibility = 1.8
-}
-
-dependencies {
-    compile project(':opencensus-api'),
-            project(':opencensus-contrib-grpc-metrics',),
-            libraries.guava
-
-    signature "org.codehaus.mojo.signature:java18:+@signature"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:43650ac73003c12f0af8db9f3663ae79458c222e7ece816e83c74d740ec66710
+size 374

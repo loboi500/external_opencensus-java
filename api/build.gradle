@@ -1,15 +1,3 @@
-description = 'OpenCensus API'
-
-dependencies {
-    compile libraries.grpc_context
-
-    compileOnly libraries.auto_value
-
-    signature "org.codehaus.mojo.signature:java17:1.0@signature"
-    signature "net.sf.androidscents.signature:android-api-level-14:4.0_r4@signature"
-}
-
-javadoc {
-    exclude 'io/opencensus/internal/**'
-    exclude 'io/opencensus/trace/internal/**'
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:60ee34d2382e5b958554e4f86f49c209e9761fb9e26ce782dbbdcad0855241e5
+size 372

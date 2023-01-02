@@ -1,21 +1,3 @@
-description = 'OpenCensus Implementation'
-
-apply plugin: 'java'
-
-[compileJava, compileTestJava].each() {
-    it.sourceCompatibility = 1.7
-    it.targetCompatibility = 1.7
-}
-
-dependencies {
-    compile project(':opencensus-api'),
-            project(':opencensus-impl-core'),
-            libraries.disruptor
-
-    testCompile project(':opencensus-api'),
-            project(':opencensus-impl-core')
-
-    signature "org.codehaus.mojo.signature:java17:1.0@signature"
-}
-
-javadoc.exclude 'io/opencensus/internal/**'
+version https://git-lfs.github.com/spec/v1
+oid sha256:37ee5f195677b265895ebcc8587bd676b5272ee757c573357d9fb6d659610b81
+size 509

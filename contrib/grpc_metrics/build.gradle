@@ -1,16 +1,3 @@
-description = 'OpenCensus gRPC Metrics'
-
-apply plugin: 'java'
-
-[compileJava, compileTestJava].each() {
-    it.sourceCompatibility = 1.6
-    it.targetCompatibility = 1.6
-}
-
-dependencies {
-    compile project(':opencensus-api'),
-            libraries.guava
-
-    signature "org.codehaus.mojo.signature:java17:1.0@signature"
-    signature "net.sf.androidscents.signature:android-api-level-14:4.0_r4@signature"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4c2b5540244e680c3c857cc7edf1e03d219ed28b2512d821d552ac88077a01a
+size 408
